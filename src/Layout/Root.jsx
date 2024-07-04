@@ -6,15 +6,17 @@ import { Outlet } from "react-router-dom";
 const Root = () => {
 
     return (
-        <div className=" max-w-[1920px] mx-auto font-mont">
-            <Navbar />
+        <div className="bg-gray-600">
+            <div className=" max-w-[1920px] lg:w-[90%] w-[98%] mx-auto font-mont">
+                <Navbar />
 
-            <div className="min-h-[calc(100vh-520.667px)]">
-                <Outlet></Outlet>
+                <div className="">
+                    <Outlet></Outlet>
+                </div>
+                <Footer />
+
+
             </div>
-            <Footer />
-
-
         </div>
     );
 };
