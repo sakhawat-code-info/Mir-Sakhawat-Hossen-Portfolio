@@ -1,5 +1,8 @@
 
 import './App.css'
+import AboutMe from './Components/AboutMe'
+import GetInTouch from './Components/GetInTouch'
+import MyProjects from './Components/MyProjects'
 
 function App() {
 
@@ -7,7 +10,9 @@ function App() {
   return (
     <>
       <div>
-        <p>body</p>
+        <AboutMe />
+        <MyProjects />
+        <GetInTouch />
       </div>
 
     </>
