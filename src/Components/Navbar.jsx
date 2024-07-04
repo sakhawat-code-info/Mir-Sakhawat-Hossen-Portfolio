@@ -8,10 +8,10 @@ const Navbar = () => {
         <div>
             <div className="w-full h-full bg-gray-900 dark:bg-gray-200">
                 <header className="lg:px-16 px-4 flex flex-wrap items-center py-4 shadow-lg">
-                    <div className="flex-1 flex justify-between items-center text-white">
+                    <div className="flex-1 flex justify-between items-center text-white font-extrabold text-4xl">
                         {/* <img className="sm:w-[10rem] xs:w-[7rem]"
                             src="https://techakim.com/sam/tg/7268/li/imgs/samlogo2.png" alt="Logo" /> */}
-                        mir sakhawat hossen
+                        Mir Sakhawat Hossen
                     </div>
                     <label className="pointer-cursor md:hidden block">
                         <svg className="fill-current text-gray-200" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">

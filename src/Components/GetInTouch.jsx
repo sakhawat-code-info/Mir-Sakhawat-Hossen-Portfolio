@@ -12,21 +12,19 @@ const GetInTouch = () => {
                             </p>
                             <h2 className="text-3xl font-bold leading-tight text-gray-200 dark:text-white sm:text-4xl lg:text-5xl text-transparent bg-clip-text bg-gradient-to-tr to-cyan-500 from-blue-600">Get in Touch</h2>
 
-                            <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-100 dark:text-slate-400">In hac habitasse platea
-                                dictumst
+                            <p className="mx-auto mt-4 max-w-3xl text-xl text-gray-100 dark:text-slate-400">
+                                I'd love to hear from you! Whether you have a project in mind, a question, or just want to connect, feel free to reach out.
                             </p>
                         </div>
                     </div>
                     <div className="flex items-stretch justify-center">
                         <div className="grid md:grid-cols-2">
                             <div className="h-full pr-6">
-                                <p className="mt-3 mb-12 text-lg text-gray-100 dark:text-slate-400">
-                                    className aptent taciti sociosqu ad
-                                    litora torquent per conubia nostra, per inceptos himenaeos. Duis nec ipsum orci. Ut scelerisque
-                                    sagittis ante, ac tincidunt sem venenatis ut.
+                                <p className="mt-3 mb-12 text-sm text-gray-100 dark:text-slate-400">
+                                    I'm available for freelance work, full-time positions, and collaboration on exciting projects. If you have any questions or would like to discuss an opportunity, don't hesitate to get in touch.
                                 </p>
                                 <ul className="mb-6 md:mb-0">
-                                    <li className="flex">
+                                    <li className="flex justify-start items-center gap-3 mb-3">
                                         <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -37,14 +35,16 @@ const GetInTouch = () => {
                                                 </path>
                                             </svg>
                                         </div>
-                                        <div className="ml-4 mb-4">
-                                            <h3 className="mb-2 text-lg font-medium leading-6 text-gray-100 dark:text-white">Our Address
-                                            </h3>
-                                            <p className="text-gray-200 dark:text-slate-400">1230 Maecenas Street Donec Road</p>
-                                            <p className="text-gray-200 dark:text-slate-400">New York, EEUU</p>
+                                        <div className="ml-4 mb-4 text-left">
+                                            <h2 className="text-xl font-bold leading-tight text-gray-200 dark:text-white  text-transparent bg-clip-text bg-gradient-to-tr to-cyan-500 from-blue-600 mb-2">My Address</h2>
+
+                                            <p className="text-gray-200 dark:text-slate-400">Sonarga</p>
+                                            <p className="text-gray-200 dark:text-slate-400">Naraongonj, Dhaka</p>
                                         </div>
                                     </li>
-                                    <li className="flex">
+
+
+                                    <li className="flex justify-start items-center gap-3 mb-3">
                                         <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -56,14 +56,14 @@ const GetInTouch = () => {
                                                 <path d="M15 3a6 6 0 0 1 6 6"></path>
                                             </svg>
                                         </div>
-                                        <div className="ml-4 mb-4">
-                                            <h3 className="mb-2 text-lg font-medium leading-6 text-gray-100 dark:text-white">Contact
-                                            </h3>
-                                            <p className="text-gray-200 dark:text-slate-400">Mobile: +1 (123) 456-7890</p>
-                                            <p className="text-gray-200 dark:text-slate-400">Mail: tailnext@gmail.com</p>
+                                        <div className="ml-4 mb-4 text-left">
+                                            <h2 className="text-xl font-bold leading-tight text-gray-200 dark:text-white  text-transparent bg-clip-text bg-gradient-to-tr to-cyan-500 from-blue-600 mb-2">Contact</h2>
+                                            <p className="text-gray-200 dark:text-slate-400">Mobile: 01939 72 73 03</p>
+                                            <p className="text-gray-200 dark:text-slate-400">Mail: sakhawat.code.info@gmail.com</p>
                                         </div>
                                     </li>
-                                    <li className="flex">
+
+                                    <li className="flex justify-start items-center gap-3 mb-3">
                                         <div className="flex h-10 w-10 items-center justify-center rounded bg-blue-900 text-gray-50">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -72,9 +72,9 @@ const GetInTouch = () => {
                                                 <path d="M12 7v5l3 3"></path>
                                             </svg>
                                         </div>
-                                        <div className="ml-4 mb-4">
-                                            <h3 className="mb-2 text-lg font-medium leading-6 text-gray-100 dark:text-white">Working
-                                                hours</h3>
+                                        <div className="ml-4 mb-4 text-left">
+                                            <h2 className="text-xl font-bold leading-tight text-gray-200 dark:text-white  text-transparent bg-clip-text bg-gradient-to-tr to-cyan-500 from-blue-600 mb-2">Working
+                                                hours</h2>
                                             <p className="text-gray-200 dark:text-slate-400">Monday - Friday: 08:00 - 17:00</p>
                                             <p className="text-gray-200 dark:text-slate-400">Saturday &amp; Sunday: 08:00 - 12:00</p>
                                         </div>
