@@ -2,7 +2,7 @@
 
 const GetInTouch = () => {
     return (
-        <div className="container mx-auto bg-gray-800 text-gray-100">
+        <div id="contact" className="container mx-auto bg-gray-800 text-gray-100">
             <section className="bg-gray-800 text-gray-100" id="contact">
                 <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8 lg:py-20">
                     <div className="mb-4">
@@ -88,15 +88,15 @@ const GetInTouch = () => {
                                         <div className="mx-0 mb-1 sm:mb-4">
                                             <div className="mx-0 mb-1 sm:mb-4">
                                                 <label className="pb-1 text-xs uppercase tracking-wider"></label>
-                                                <input type="text" id="name" autocomplete="given-name" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name" />
+                                                <input type="text" id="name" placeholder="Your name" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="name" required />
                                             </div>
                                             <div className="mx-0 mb-1 sm:mb-4">
-                                                <label for="email" className="pb-1 text-xs uppercase tracking-wider"></label>
-                                                <input type="email" id="email" autocomplete="email" placeholder="Your email address" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email" />
+                                                <label className="pb-1 text-xs uppercase tracking-wider"></label>
+                                                <input type="email" id="email" placeholder="Your email address" className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0" name="email" required />
                                             </div>
                                         </div>
                                         <div className="mx-0 mb-1 sm:mb-4">
-                                            <label for="textarea" className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
+                                            <label className="pb-1 text-xs uppercase tracking-wider"></label><textarea id="textarea" name="textarea" cols="30" rows="5" placeholder="Write your message..." className="mb-2 w-full rounded-md border border-gray-400 py-2 pl-2 pr-4 shadow-md dark:text-gray-300 sm:mb-0"></textarea>
                                         </div>
                                     </div>
                                     <div className="text-center">

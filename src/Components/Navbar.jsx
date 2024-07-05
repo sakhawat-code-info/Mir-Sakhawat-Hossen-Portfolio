@@ -5,7 +5,7 @@ import profileImg from '../assets/A-55430.jpg'
 const Navbar = () => {
 
     return (
-        <div>
+        <div id="home" className="container mx-auto">
             <div className="w-full h-full bg-gray-900 dark:bg-gray-200">
                 <header className="lg:px-16 px-4 flex flex-wrap items-center py-4 shadow-lg">
                     <div className="flex-1 flex justify-between items-center text-white font-extrabold text-4xl">
@@ -24,11 +24,11 @@ const Navbar = () => {
                     <div className="hidden md:flex md:items-center md:w-auto w-full" id="menu">
                         <nav>
                             <ul className="md:flex items-center justify-between text-base text-gray-100 dark:text-gray-600 pt-4 md:pt-0">
-                                <li><a className="md:p-4 py-3 px-0 block text-rose-500" href="#">Home</a></li>
-                                <li><a className="md:p-4 py-3 px-0 block" href="#">About Me</a></li>
-                                <li><a className="md:p-4 py-3 px-0 block" href="#">Education</a></li>
-                                <li><a className="md:p-4 py-3 px-0 block" href="#">Projects</a></li>
-                                <li><a className="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#">Contact</a></li>
+                                <li><a className="md:p-4 py-3 px-0 block text-rose-500" href="#home">Home</a></li>
+                                <li><a className="md:p-4 py-3 px-0 block" href="#aboutMe">About Me</a></li>
+                                <li><a className="md:p-4 py-3 px-0 block" href="#myProjects">My Projects</a></li>
+                                <li><a className="md:p-4 py-3 px-0 block" href="#education">Education</a></li>
+                                <li><a className="md:p-4 py-3 px-0 block md:mb-0 mb-2" href="#contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -42,9 +42,12 @@ const Navbar = () => {
                     <div className="w-full flex flex-col justify-center gap-4 text-white dark:text-gray-800 md:mt-0 sm:mt-8 xs:mt-4">
                         <h1 className="text-3xl font-semibold font-serif">Hello, I'm Mir Sakhawat Hossen</h1>
                         <h3 className="capitalize text-rose-400">i'm <span className="typing text-green-500 dark:text-green-700">fullstack developer</span></h3>
-                        <p>A self-motivated and enthusiastic web developer. To gain confidence and fame using my potential in the field of web development and express my innovative creative skills for self and company growth. I always like to learn new things and have experience with new stuff.</p>
+                        <p className="text-justify">A self-motivated and enthusiastic web developer. To gain confidence and fame using my potential in the field of web development and express my innovative creative skills for self and company growth. I always like to learn new things and have experience with new stuff.</p>
                         <div className="sm:mt-4 xs:mt-2 flex items-center justify-center">
-                            <button className="px-6 py-1 bg-rose-500 text-white rounded-sm flex items-center justify-center gap-3">Resume <span><FaFilePdf size={20} /></span></button>
+                            <a href="https://drive.google.com/file/d/1oNz9Ss-ZnRcHiWZLKM5H07AyaS7nGQSU/view?usp=sharing" target="_blank">
+                                <button className="px-6 py-2 bg-rose-500 text-white rounded flex items-center justify-center gap-3">Resume <span><FaFilePdf size={20} /></span></button>
+                            </a>
+
                         </div>
                     </div>
                 </div>
